@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        #one {
+            height: 40px;
+            width: 40px;
+            background-color: black;
+        }
+        
+        #two {
+            height: 40px;
+            width: 40px;
+            background-color: red;
+            display: none;
+        }
+        
+        #parent {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 4rem;
+            width: 100%;
+            padding: 0 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div>
+            <div id="one"></div>
+        </div>
+        <div>
+            <div id="two"></div>
+        </div>
+    </div>
+    <script src="./script/deux.js"></script>
+</body>
+
+</html>
